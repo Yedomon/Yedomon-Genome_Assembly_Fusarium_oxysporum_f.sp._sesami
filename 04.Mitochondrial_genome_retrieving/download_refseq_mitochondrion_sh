@@ -1,0 +1,32 @@
+#!/bin/bash
+
+set -e
+
+# First set
+
+echo "Downloading set 1..."
+
+wget https://ftp.ncbi.nlm.nih.gov/refseq/release/mitochondrion/mitochondrion.1.1.genomic.fna.gz
+
+echo "Unzipping set1..."
+
+gunzip mitochondrion.1.1.genomic.fna.gz
+
+
+# Second set
+
+echo "Downloading set2 ..."
+
+wget https://ftp.ncbi.nlm.nih.gov/refseq/release/mitochondrion/mitochondrion.2.1.genomic.fna.gz
+
+
+echo "Unzipping set 2..."
+
+gunzip mitochondrion.2.1.genomic.fna.gz 
+
+
+# Concatenation of both files
+
+cat mitochondrion.1.1.genomic.fna mitochondrion.2.1.genomic.fna > refseq.mitochondrion.fasta
+
+echo "Job is completed"
