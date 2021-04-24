@@ -2,7 +2,7 @@
 
 Here we summarized the scripts used for the genome assembly of the sesame wilt disease pathogen (*Fusarium oxysporum f.sp. sesami*).
 
-Please refer to the following zenodo link for proper citation. [![DOI](https://github.com/Yedomon/Yedomon-Genome_Assembly_Fusarium_oxysporum_f.sp._sesami/blob/main/zenodo.4717617.svg)](https://zenodo.org/badge/latestdoi/322282589) 
+Please refer to the following zenodo link for proper citation: [![DOI](https://github.com/Yedomon/Yedomon-Genome_Assembly_Fusarium_oxysporum_f.sp._sesami/blob/main/zenodo.4717617.svg)](https://zenodo.org/badge/latestdoi/322282589) 
 
 
 
